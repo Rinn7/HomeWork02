@@ -1,13 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        var firstBoxerWeight = 78.2;
-        System.out.println("Вес первого боксера " + firstBoxerWeight + "кг");
-        var secondBoxerWeight = 82.7;
-        System.out.println("Вес второго боксера " + secondBoxerWeight + "кг");
-        var generalWeight = firstBoxerWeight + secondBoxerWeight;
-        System.out.println("Общий вес боксеров составляет " + generalWeight + "кг!");
-        var differenceInWeight = secondBoxerWeight % firstBoxerWeight;
-        System.out.println("Разница в весе боксеров составляет " + differenceInWeight + "кг!");
+        var generalWorkHours = 640;
+        System.out.println(generalWorkHours);
+        var oneWorkerHours = 8;
+        System.out.println(oneWorkerHours);
+        var generalWorkersAmount = generalWorkHours / oneWorkerHours;
+        System.out.println("Всего работников в компании " + generalWorkersAmount + " человек");
+
 
     }
 }
