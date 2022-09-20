@@ -1,12 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        var frog = 3.5;
-        System.out.println(frog);
-        frog = frog * 10;
-        System.out.println(frog);
-        frog = frog / 3.5;
-        System.out.println(frog);
-        frog = frog + 4;
-        System.out.println(frog);
+        var firstBoxerWeight = 78.2;
+        System.out.println("Вес первого боксера " + firstBoxerWeight + "кг");
+        var secondBoxerWeight = 82.7;
+        System.out.println("Вес второго боксера " + secondBoxerWeight + "кг");
+        var generalWeight = firstBoxerWeight + secondBoxerWeight;
+        System.out.println("Общий вес боксеров составляет " + generalWeight + "кг!");
+        var differenceInWeight = secondBoxerWeight - firstBoxerWeight;
+        System.out.println("Разница в весе боксеров составляет " + differenceInWeight + "кг!");
+
     }
 }
